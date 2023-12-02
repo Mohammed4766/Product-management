@@ -1,0 +1,37 @@
+body {
+    background-color: #222;
+    color: #fff;
+    height: 100ch;
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(175, 56, 125);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4;
+}

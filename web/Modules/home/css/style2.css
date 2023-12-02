@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    height: 100ch;
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(175, 56, 125);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(145, 57, 108);
+    letter-spacing: 1px;
+}
+
+
+input[type="text"]:focus {
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+
+.outputs {
+    width: 100%;
+}
+
+#amendment {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(175, 56, 125);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4;
+}
+
+#amendment:hover {
+    background-color: rgb(145, 57, 108);
+}
+
+#delete {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(172, 36, 61);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4;
+}
+
+#delete:hover {
+    background-color: rgb(220, 22, 22);
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+td {
+    padding: 5px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head {
+    width: 80%;
+    text-align: end;
+}
